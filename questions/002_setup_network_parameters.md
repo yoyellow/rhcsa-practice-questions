@@ -22,7 +22,7 @@ Interface:    eth0
 * Issue following command (as one liner) to set connection data (we assume type is ethernet connection as used interface is called ***eth0***):
  
 ```
-nmcli conn add conn-name MY_CONNECTION ifname eth0 type ethernet
+nmcli conn add con-name MY_CONNECTION ifname eth0 type ethernet
 ip4 SOME.IP.TO.BE.USED/mask
 gw4 SOME.GATEWAY.TO.BE.USED
 ```
